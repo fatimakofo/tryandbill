@@ -1,0 +1,389 @@
+/* media query */
+@media screen and (max-width: 825px) {
+  div.align{
+    /* display: block; */
+  }
+  nav div.links,
+  nav div.buttonss{
+    display: none;
+  }
+  div.container div.content-two div.smaller-image {
+  display: none;
+}
+section div.container div.content-two div.profile-image{
+  width: 100%;
+}
+section div.container div.content-two div.profile-image img{
+ height: 350px;
+}
+  div.mainContainer1 div.main,
+  main,
+  div.mainContainer2 div.main {
+    width: 80%;
+    padding: 50px;
+  }
+
+  nav {
+    padding: 20px 15px;
+  }
+  nav div.links {
+    width: 40%;
+  }
+  nav div.buttonss {
+    width: 30%;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h3{
+    font-size: 1.6rem;
+  }
+  header div.hamburger{
+    display: block;
+    width: 7%;
+    height: auto;
+  }
+  header div.hamburger img{
+   height: 30px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  header div.hamburger{
+    width: 10%;
+  }
+  div.sideNav header div.closeImage {
+    width: 9%;
+}
+div.sideNav ul {
+  row-gap: 40px;
+}
+div.sideNav {
+  row-gap: 40px;
+}
+  div.mainContainer2 div.main form div.input-field input,
+  div.mainContainer1 div.main form div.input-field input,
+  main form div.input-field input {
+    padding: 15px;
+  }
+  div.sideNav div.buttonss {
+    width: 90%;
+    row-gap: 40px;
+}
+  div.mainContainer2 div.main form,
+  div.mainContainer1 div.main form,
+  main form {
+    row-gap: 15px;
+  }
+  div.mainContainer2 div.main div.input-field span,
+  div.mainContainer1 div.main div.input-field span {
+    font-size: 1.2rem;
+  }
+  div.mainContainer1 div.main form button,
+  main form button,
+  div.mainContainer2 div.main form button,
+  main form button {
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+  div.mainContainer1 div.main p,
+  div.mainContainer2 div.main p {
+    font-size: 1.1rem;
+  }
+
+  div.container div.content-two div.profile-image img {
+    height: 350px;
+  }
+  nav div.links,
+  div.container div.content-one div.figures,
+  nav div.buttonss,
+  div.container div.content-two div.smaller-image,
+  footer div.footerGroup div.group-one:nth-child(1) {
+    display: none;
+  }
+  /* header {
+    width: 38%;
+  } */
+  section div.container {
+    /* height: 100vh; */
+    height: auto;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    row-gap: 60px;
+  }
+  div.container div.content-two div.profile-image {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  div.container div.content-one,
+  section div.container div.content-two {
+    width: 100%;
+    height: auto;
+  }
+  .vision div.row {
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  li {
+    margin-top: 10px;
+  }
+  .vision button {
+    width: 50%;
+    height: 50px;
+  }
+  div.container div.content-one div.text-one button,
+  div.services div.upperText,
+  section div.services div.networks div.one,
+  footer div.footerGroup div.group-one:nth-child(4) {
+    width: 100%;
+  }
+  div.services div.upperText p,
+  div.services div.networks div.one div.oneText p,
+  div.texts div.text-one p,
+  div.texts div.text-two p {
+    font-size: 1.2rem;
+  }
+  div.account div.content2 div.card-two img {
+    height: 230px;
+  }
+  div.questions {
+    padding: 50px 15px;
+  }
+  span div.arrowUp,
+  span div.arrowdown {
+    width: 6%;
+  }
+  footer div.footerGroup {
+    width: 85%;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+  footer div.footerGroup div.group-one {
+    width: 40%;
+  }
+  div.footerGroup div.group-one div.logoImage img {
+    width: 100%;
+    height: 50px;
+  }
+  div.services div.networks div.one div.image img {
+    width: 75%;
+  }
+  section div.footerGroup div.group-one div.newsLetter form button {
+    width: 9%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  div.reset,
+  div.mainContainer1,
+  div.mainContainer2 {
+    top: 0;
+  }
+  div.mainContainer1 div.main,
+  div.mainContainer2 div.main,
+  main {
+    width: 50%;
+    padding: 50px;
+  }
+  div.mainContainer1 div.main form div.input-field input,
+  div.mainContainer2 div.main form div.input-field input,
+  main form div.input-field input {
+    padding: 20px 10px;
+  }
+  div.mainContainer1 div.main form,
+  div.mainContainer2 div.main form,
+  main form {
+    row-gap: 30px;
+  }
+  div.mainContainer1 div.input-field span,
+  div.mainContainer2 div.input-field span {
+    font-size: 1.4rem;
+  }
+  div.mainContainer1 div.main form button,
+  div.mainContainer2 div.main form button,
+  main form button {
+    padding: 15px 0;
+    font-size: 1.4rem;
+  }
+  div.mainContainer1 div.main p,
+  div.mainContainer2 div.main p {
+    font-size: 1.4rem;
+  }
+  header div.logo {
+    width: 30%;
+    height: auto;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  nav div.links {
+    width: 40%;
+  }
+  nav div.buttonss {
+    width: 30%;
+  }
+  header div.logo {
+    display: none;
+  }
+  div.mainContainer1 div.main,
+  div.mainContainer2 div.main,
+  main {
+    width: 70%;
+    padding: 50px;
+  }
+  section div.container {
+    padding: 5px 30px;
+    column-gap: 50px;
+  }
+  div.container div.content-one div.text-one h1 {
+    font-size: 1.8rem;
+  }
+  div.container div.content-one div.text-one button {
+    width: 55%;
+    height: 45px;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  div.container div.content-two div.profile-image,
+  div.services div.upperText,
+  div.account div.content2,
+  div.account div.content1,
+  footer hr {
+    width: 80%;
+  }
+  div.container div.content-two div.profile-image img {
+    height: 300px;
+  }
+  div.container div.content-two div.smaller-image img {
+    height: 140px;
+  }
+  div.container div.content-two {
+    height: 450px;
+  }
+  div.container div.content-two div.smaller-image {
+    top: 48%;
+    left: 68%;
+  }
+  div.aboutUs div.animatedText,
+  div.account div.content2 div.card,
+  div.account div.content2 div.card-two:nth-child(1),
+  div.questions div.groupImage {
+    display: none;
+  }
+  div.aboutUs div.content,
+  div.account div.content2 div.card,
+  div.account div.content2 div.cardOne {
+    width: 100%;
+  }
+  div.services {
+    padding: 100px 30px;
+  }
+  div.services div.networks {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 60px;
+  }
+  div.services div.networks div.one {
+    width: 40%;
+  }
+  div.account {
+    flex-direction: column-reverse;
+    row-gap: 60px;
+    padding: 80px 0;
+  }
+  div.account div.content2 div.card-two:nth-child(2) {
+    width: 100%;
+    height: auto;
+  }
+  div.account div.content2 div.card-two img {
+    width: 100%;
+    height: 258px;
+  }
+  div.account div.content1 p {
+    font-size: 1.4rem;
+  }
+  div.questions div.Answers {
+    width: 100%;
+    margin-left: 0;
+    padding: 30px;
+  }
+  footer div.footerGroup {
+    width: 90%;
+  }
+  div.footerGroup div.group-one div.logoImage {
+    width: 100%;
+  }
+  div.footerGroup div.group-one div.icons div.social img {
+    height: 35px;
+  }
+  div.footerGroup div.group-one div.newsLetter form button {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 440px) {
+  div.sideNav header div.closeImage {
+    width: 12%;
+}
+div.sideNav ul {
+  row-gap: 60px;
+}
+div.sideNav {
+  row-gap: 60px;
+}
+div.sideNav div.buttonss {
+  width: 100%;
+  row-gap: 60px;
+}
+  div.mainContainer1 div.main,
+  div.mainContainer2 div.main,
+  main {
+    width: 90%;
+    padding: 40px 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+div.sideNav header div.closeImage img {
+   height: 28px;
+}
+div.sideNav header h1 {
+  font-size: 2rem;
+}
+div.sideNav ul li {
+  font-size: 1.6rem;
+}
+div.sideNav ul {
+  row-gap: 30px;
+}
+div.sideNav {
+  row-gap: 30px;
+}
+  div.mainContainer1 div.main,
+  div.mainContainer2 div.main,
+  main {
+    padding: 30px 20px;
+  }
+  div.verify h3,
+  div.resetMain h3,
+  div.mainContainer1 div.main h3,
+  div.mainContainer2 div.main h3,
+  main h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  div.mainContainer1 div.main form button,
+  div.mainContainer2 div.main form button,
+  main form button {
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+  div.mainContainer1 div.main p,
+  div.mainContainer2 div.main p {
+    font-size: 0.6rem;
+  }
+}

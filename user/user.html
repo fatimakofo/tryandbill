@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="user.css">
+    <script src="https://kit.fontawesome.com/7a52053af2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section>
+        <!-- sidenav starts here -->
+        <div class="sidenav">
+            <div class="text">
+              <header>
+                <img src="../try/Frame 1.png" alt="">
+                <div>
+                <i class="fa-solid fa-xmark" style="color: #382660;" id="close"></i>
+            </div> 
+            </header>
+              <ul>
+                <li class="active">
+                    
+                    <i class="fa-solid fa-qrcode"></i>
+                    <a href="#"> Dashboard </a>
+                </li>
+                <li>
+                     <i class="fa-solid fa-dollar-sign"></i>
+                     <a href="#">Purchase</a> 
+                </li>
+                <li>
+                    <i class="fa-regular fa-bell"></i> 
+                    <a href="#">Notification</a> 
+                </li>
+                <li> 
+                    <i class="fa-regular fa-user"></i>
+                    <a href="#">Account</a> 
+                </li>
+                <li> 
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="#">Settings</a> 
+                </li>
+                <li> 
+                    <i class="fa-regular fa-circle-question"></i>
+                    <a href="#">Cards</a> 
+                </li>
+                <li class="log-out"> 
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <a href="#" id="signOut">Log out</a> 
+                </li>
+              </ul>
+            </div>
+        </div>
+            <!-- sidenav ends here -->
+        <!-- div.content starts here -->
+        <div class="container">
+            <!-- first nav bar starts here -->
+            <div class="navbar">
+                <div class="head1">
+                    <i class="fa-solid fa-bars" style="color: #382660;" id="ham"></i>
+                </div>
+                <div class="head2">
+                    <img src="../try/Frame 1.png" alt="">
+                </div>
+                <div class="others1">
+                    <i class="fa-regular fa-bell"></i> 
+                <div class="profile">
+                    <h3 class="avatar"></h3>
+                </div>
+                </div>
+            </div>
+            <!-- first nav bar ends here -->
+            <!-- second nav bar starts here -->
+            <nav>
+                <div class="head">
+                    <header>Welcome</header>
+                </div>
+               <div class="others">
+                <i class="fa-regular fa-bell"></i> 
+                <div class="profile">
+                    <img src="../try/profile - Copy.jpg" alt="">
+                </div>
+                    <div class="avatar"></div>
+               </div>           
+            </nav>
+
+            <div class="services">
+                <span>Welcome</span>
+                <h3>Services</h3>
+                <div class="all">
+                    <div class="airtime one">
+                        <div class="airtime-text">
+                           <div class="plane">
+                            <img src="../try/plane.png" alt="">
+                           </div>
+                        <p> <a href="../airtime/airtime.html">Buy Airtime</a> </p>
+                    </div>
+                    </div>
+                    <div class="subscription one">
+                        <div class="sub-text">
+                        <div>
+                            <img src="../try/user.png" alt="">
+                        </div>
+                        <p> <a href="../data/index.html">Data Subscription</a> </p>
+                    </div>
+                    </div>
+                    <div class="cable one">
+                        <div class="cable-text">
+                        <div>
+                            <img src="../try/card.png" alt="">
+                        </div>
+                        <p> <a href="../cable/cable.html">Cable Subscription</a> </p>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="content">
+             <header>Recent Activities</header>
+             <hr>
+             <div id="contents">
+
+             
+             <div>
+                    <p class="title">
+                       <span class="verbs">Irregular Verbs</span> 
+                        <span>8:47am <span>Today</span></span>
+                        
+                    </p>
+                    <p>
+                        <span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione est, tenetur voluptatum vero consectetur.
+                </span>
+                    <span>Pending</span>
+                </p>
+            </div>
+            <div>
+                <p class="title">
+                   <span class="verbs">Table Tennis Rules Assignment</span> 
+                    <span>8:47am <span>Yesterday</span></span>
+                    
+                </p>
+                <p>
+                    <span>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione est, tenetur voluptatum vero consectetur.
+            </span>
+                <span class="failed">Failed</span>
+            </p>
+        </div>
+        <div>
+            <p class="title">
+               <span class="verbs">Cous Cous</span> 
+                <span>8:47am <span>26/7/22</span> </span>
+                
+            </p>
+            <p>
+                <span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione est, tenetur voluptatum vero consectetur.
+        </span>
+            <span class="success">Successful</span>
+        </p>
+    </div>
+    <div>
+        <p class="title">
+           <span class="verbs">Pythagora's Theorem</span> 
+            <span>8:47am <span>7/7/22</span> </span>
+            
+        </p>    
+        <p>
+            <span>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione est, tenetur voluptatum vero consectetur.
+    </span>
+        <span class="success">Successful</span>
+    </p>
+</div>
+              <a href="#">See All</a> 
+            </div>
+        </div>
+        </div>
+        <!-- div.content ends here -->
+    </section>
+    <script src="user.js"></script>
+    <script src="../airtime/script.js" type="module"></script>
+    <script src="../landing page/script.js" type="module"></script>
+</body>
+</html>

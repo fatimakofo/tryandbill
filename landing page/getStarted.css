@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+div.reset,
+div.mainContainer1,
+div.mainContainer2 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(18, 18, 18, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 9999;
+  visibility: hidden;
+}
+div.show1 {
+  visibility: visible;
+}
+
+div.main,
+main {
+  width: 31%;
+  height: auto;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+div.main form div.input-field,
+main form div.input-field {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+div.main form,
+main form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+div.mainContainer1 div.main div.close {
+  width: 10%;
+  height: 22px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+div.mainContainer2 div.main div.close,
+div.reset div.resetMain div.close {
+  width: 10%;
+  height: 22px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+div.verify h3,
+div.resetMain h3,
+div.main h3,
+main h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: rgba(69, 69, 69, 1);
+  text-align: center;
+}
+div.main form div.input-field input,
+main form div.input-field input {
+  border: 1px solid rgba(207, 207, 207, 1);
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+main form p,
+main p {
+  font-size: 0.7rem;
+  text-align: center;
+}
+div.main form button,
+main form button {
+  width: 100%;
+  background-color: rgba(56, 38, 96, 1);
+  border-radius: 5px;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+div.main p {
+  text-align: center;
+}
+div.main .change {
+  color: rgba(56, 38, 96, 1);
+}
+div.reset div.verify,
+div.reset div.resetMain {
+  width: 31%;
+  height: auto;
+  padding: 50px 50px 120px 50px;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+div.reset div.verify {
+  row-gap: 30px;
+}
+div.reset div.resetMain form div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+div.reset div.resetMain form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+div.reset div.verify p,
+div.reset div.resetMain p {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+div.reset div.resetMain div.input input {
+  border: 1px solid rgba(207, 207, 207, 1);
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+div.reset div.verify form div.buttons .first,
+div.reset div.resetMain form button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgba(56, 38, 96, 1);
+  padding: 8px 0;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+div.reset div.verify form div.group {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+div.reset div.verify form div.group input {
+  padding: 15px 15px;
+  width: 15%;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(207, 207, 207, 1);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+/* div.group input:focus {
+    border-color: black; 
+  } */
+div.buttons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+div.buttons button:nth-child(2) {
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  color: rgba(56, 38, 96, 1);
+}
+div.reset div.verify form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}

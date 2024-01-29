@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy airtime</title>
+    <link rel="stylesheet" href="airtime.css" />
+    <script
+      src="https://kit.fontawesome.com/7a52053af2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <!-- pop-up starts here ... successful -->
+      <div class="popup" id="popup">
+        <div class="center">
+          <nav>
+            <div class="one">
+              <i
+                class="fa-solid fa-xmark"
+                style="color: #382660"
+                id="close"
+              ></i>
+            </div>
+            <div class="two"></div>
+          </nav>
+          <div class="pop-img">
+            <img src="../try/smile.png" alt="" />
+          </div>
+          <div class="text">
+            <h1>Transaction Successful!</h1>
+            <span>Thanks For The Patronage</span>
+          </div>
+        </div>
+      </div>
+      <!-- pop-up ends here -->
+
+      <!-- sidenav starts here -->
+      <div class="sidenav">
+        <div class="text">
+          <header><img src="../try/Frame 1.png" alt="" /></header>
+          <ul>
+            <li class="active">
+              <i class="fa-solid fa-qrcode"></i>
+              <a href="#"> Dashboard</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <a href="#">Purchase</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-bell"></i>
+              <a href="#">Notification</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-user"></i>
+              <a href="#">Account</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-gear"></i>
+              <a href="#">Settings</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-circle-question"></i>
+              <a href="#">Help</a>
+            </li>
+            <li class="log-out">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <a href="../landing page/index.html">Log out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- sidenav ends here -->
+      <div class="container">
+        <nav>
+          <div class="header">
+            <div>
+              <i
+                class="fa-solid fa-arrow-left"
+                style="color: #1a2332"
+                id="show"
+              ></i>
+            </div>
+            <span class="purchase">
+              <a href="../user/user.html">Purchase</a>
+            </span>
+
+            <i
+              class="fa-solid fa-arrow-right"
+              style="color: #d8dce4"
+              id="none"
+            ></i>
+            <span class="buy">Buy Airtime</span>
+          </div>
+          <div class="others">
+            <i class="fa-regular fa-bell" id="bell"></i>
+
+            <div class="profile">
+              <img src="../try/profile - Copy.jpg" alt="" />
+            </div>
+          </div>
+        </nav>
+        <div class="content">
+          <div class="hero">
+            <h2>Buy Airtime</h2>
+            <form action="">
+              <div>
+                <label for="input1">Network</label><br />
+                <input
+                  type="text"
+                  placeholder="Select Network"
+                  id="input1"
+                  required
+                /><br />
+              </div>
+              <div>
+                <label for="input2">Number</label><br />
+                <input
+                  type="number"
+                  placeholder="Destination Number"
+                  id="input2"
+                  required
+                /><br />
+              </div>
+              <div>
+                <label for="input3">Amount</label><br />
+                <input
+                  type="number"
+                  placeholder="Enter Amount"
+                  id="input3"
+                  required
+                />
+              </div>
+              <button>Confirm</button>
+              <button class="buttonload">
+                <i class="fa-solid fa-circle-notch fa-spin"></i>
+                Loading
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
